@@ -6,9 +6,11 @@ public class MagicTower : Tower
     {
         range = 8;
         damage = 15;
+    }
 
+    protected override void Attack(Transform target)
+    {
 
-        Attack();
     }
 
 }

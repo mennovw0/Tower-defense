@@ -6,9 +6,11 @@ public class CannonTower : Tower
     {
         range = 3;
         damage = 25;
+    }
 
+    protected override void Attack(Transform target)
+    {
 
-        Attack();
     }
 
 }
